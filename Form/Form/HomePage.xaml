@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Form.HomePage">
+  <StackLayout Padding="10,12">
+    <StackLayout Orientation="Horizontal">
+      <Image Source ="User.png" WidthRequest="30" HeightRequest="30"></Image>
+      <Label Text="Home" FontSize="30"></Label>
+    </StackLayout>
+    <Entry x:Name="TNombre" Placeholder="Ingresa tu nombre"></Entry>
+    <Button Text="Guardar" x:Name="BGuardar" Clicked="BSave_Clicked"/>  
+  </StackLayout>
+  
+</ContentPage>
