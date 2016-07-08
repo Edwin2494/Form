@@ -14,7 +14,6 @@ namespace Form
             // The root page of your application
             MainPage = new HomePage()
             {
-                Title =  "Home"
             };
         }
 
